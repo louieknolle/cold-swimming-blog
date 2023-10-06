@@ -1,22 +1,18 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'Cold Swimming Blog',
+  author: 'Louie Knolle',
+  headerTitle: 'Cold Cold Cold',
+  description: "A blog about author Louie Knolle's journey into cold water swimming.",
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
+  siteUrl: 'https://cold-swimming-blog.vercel.app/',
+  siteRepo: 'https://github.com/louieknolle/cold-swimming-blog',
+  siteLogo: '/static/images/cold-logo.png',
   socialBanner: '/static/images/twitter-card.png',
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  email: 'louie.knolle@gmail.com',
+  github: 'https://github.com/louieknolle',
+  linkedin: 'https://www.linkedin.com/in/louie-knolle',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
