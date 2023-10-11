@@ -1,10 +1,10 @@
-import projectsData from '@/data/projectsData'
+import resourcesData from '@/data/resourcesData'
 import Card from '@/components/Card'
 import { genPageMetadata } from 'app/seo'
 
-export const metadata = genPageMetadata({ title: 'Projects' })
+export const metadata = genPageMetadata({ title: 'Resources' })
 
-export default function Projects() {
+export default function Resources() {
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -19,7 +19,7 @@ export default function Projects() {
         </div>
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
-            {projectsData.map((d) => (
+            {resourcesData.map((d) => (
               <Card
                 key={d.title}
                 title={d.title}
