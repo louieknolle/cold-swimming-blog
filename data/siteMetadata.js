@@ -1,15 +1,16 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Cold Swimming Blog',
+  title: 'Calm Below Zero',
   author: 'Louie Knolle',
-  headerTitle: 'Cold Cold Cold',
-  description: "A blog about author Louie Knolle's journey into cold water swimming.",
+  headerTitle: 'Calm Below Zero',
+  description:
+    'Join a complete novice as he ventures into the world of cold water swimming.  He will attempt to record his thoughts and share learning resources he has found helpful.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://cold-swimming-blog.vercel.app/',
   siteRepo: 'https://github.com/louieknolle/cold-swimming-blog',
   siteLogo: '/static/images/cold-logo.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/cold-logo.png',
   email: 'louie.knolle@gmail.com',
   github: 'https://github.com/louieknolle',
   linkedin: 'https://www.linkedin.com/in/louie-knolle',
