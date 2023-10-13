@@ -48,7 +48,7 @@ const Card = ({ title, description, imgSrc, href }) => {
           </h2>
           <p
             ref={ref}
-            className={`prose mb-3 max-w-none text-gray-500 dark:text-gray-4001 ${
+            className={`prose text-xl mb-3 max-w-none text-gray-900 dark:text-white ${
               !isShowingMore && 'line-clamp-4'
             }`}
           >
