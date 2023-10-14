@@ -1,6 +1,6 @@
 # Calm Below the Surface
 
-![Banner Image](banner-image-url.png)
+![Banner Image](public/static/images/cold-logo.png)
 
 Calm Below the Surface is a personal blog curated by Louie Knolle, dedicated to the exploration and experiences of cold water swimming. The blog, crafted using Next.js, is hosted on Vercel and endeavors to create a community of cold water swimming enthusiasts.
 
