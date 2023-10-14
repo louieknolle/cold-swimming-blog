@@ -52,13 +52,15 @@ const Card = ({ title, description, imgSrc, href }) => {
               !isShowingMore && 'line-clamp-4'
             }`}
           >
-            {description}
+            {description.split('\n').map((line, index) => (
+              <p key={index}>{line}</p>
+            ))}
           </p>
           <p className="pb-2">
             {isTruncated && (
               <button
                 onClick={toggleIsShowingMore}
-                className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                className="text-xl font-medium leading-6 text-[#047eb6]  hover:text-[#024b7a] dark:text-primary-500 dark:hover:text-primary-400"
               >
                 {isShowingMore ? 'See less' : 'See more'}
               </button>
@@ -67,7 +69,7 @@ const Card = ({ title, description, imgSrc, href }) => {
           {href && (
             <Link
               href={href}
-              className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              className="text-xl font-medium leading-6 text-[#047eb6]  hover:text-[#024b7a] dark:text-primary-500 dark:hover:text-primary-400"
               aria-label={`Link to ${title}`}
             >
               Learn more &rarr;
