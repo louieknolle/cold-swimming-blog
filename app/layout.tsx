@@ -14,7 +14,7 @@ import { Metadata } from 'next'
 const ysabeau_infant = Ysabeau_Infant({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-ysabeau-infant',
+  variable: '--font-ysabeau_infant',
 })
 
 export const metadata: Metadata = {
