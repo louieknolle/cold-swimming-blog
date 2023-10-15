@@ -21,17 +21,7 @@ export default function SwimmingLocations() {
           more details later.
         </p>
       </div>
-      <Map
-        mapboxAccessToken={mapboxToken}
-        mapStyle="mapbox://styles/mapbox/streets-v12"
-        style={classes.mapStyle}
-        initialViewState={{ latitude: 35.668641, longitude: 139.750567, zoom: 10 }}
-        maxZoom={20}
-        minZoom={3}
-      >
-        <GeolocateControl />
-        <NavigationControl />
-      </Map>
+      <SwimMap />
     </div>
   )
 }

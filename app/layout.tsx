@@ -87,6 +87,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </SectionContainer>
         </ThemeProviders>
       </body>
+      <script defer src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl-csp.js"></script>
+      <script>
+        mapboxgl.workerUrl = "https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl-csp-worker.js";
+      </script>
     </html>
   )
 }

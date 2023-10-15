@@ -84,5 +84,8 @@ module.exports = () => {
 
       return config
     },
+    env: {
+      NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN: process.env.NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN,
+    },
   })
 }
