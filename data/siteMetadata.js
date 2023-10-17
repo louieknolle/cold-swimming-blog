@@ -1,8 +1,8 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Calm Below Zero',
+  title: 'Calm in the Cold',
   author: 'Louie Knolle',
-  headerTitle: 'Calm Below Zero',
+  headerTitle: 'Calm in the Cold',
   description:
     'Join a complete novice as he ventures into the world of cold water swimming.  He will attempt to record his thoughts and share learning resources he has found helpful.',
   language: 'en-us',
