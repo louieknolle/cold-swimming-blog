@@ -14,6 +14,7 @@ const siteMetadata = {
   email: 'louie.knolle@gmail.com',
   github: 'https://github.com/louieknolle',
   linkedin: 'https://www.linkedin.com/in/louie-knolle',
+  instagram: 'https://www.instagram.com/calm_in_the_cold/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
